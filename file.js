@@ -36,19 +36,68 @@
 // console.log(typeof(num))
 
 
-const fruits = ["Apple" , "Banana" , "Mango" , "Orange" , "Pineapple" , "Strawberry"]
-let check = document.querySelector("#check");
-function getInputValue(){
-    console.log(check.value)
-    if(fruits.includes(check.value)){
-        console.log('fruit available haa..')
-        h2.innerHTML = `${check.value} is available`
-    }
-    else{
-        console.log('fruit available nahi ha');
-        h2.innerHTML = `${check.value} is not available`
-    }
+// const fruits = ["Apple" , "Banana" , "Mango" , "Orange" , "Pineapple" , "Strawberry"]
+// let check = document.querySelector("#check");
+// function getInputValue(){
+//     console.log(check.value)
+//     if(fruits.includes(check.value)){
+//         console.log('fruit available haa..')
+//         h2.innerHTML = `${check.value} is available`
+//     }
+//     else{
+//         console.log('fruit available nahi ha');
+//         h2.innerHTML = `${check.value} is not available`
+//     }
     
     
-    input.value = ''
+//     input.value = ''
+// }
+
+
+
+
+// loop started 
+// infinite loop
+// loop ke ander loop 
+
+// let userInput = +prompt("Enter a number");
+// const times = +prompt("How many times");
+
+// for(let i = 1; i <= times; i++){
+    // console.log("Hello, Loop!");
+//     console.log(`${userInput} * ${i} = ${userInput*i}`)
+// }
+
+
+
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log("Outer Loop ===>" , i);
+
+//     for (let j = 1; j <=5; j++) {
+//         console.log("Inner Loop ===>" , j);
+//     }
+// }
+
+
+
+// 1 to 100 table 
+
+// for (let i = 1; i <= 100; i++) {
+//     console.log("Table of ===>" , i);
+
+//     for (let j = 1; j <=10; j++) {
+//         console.log(`${i} * ${j} = ${i*j}` );
+//     }
+// }
+
+
+
+
+let bikes = ["Honda" , "KTM" , "Ducati" , "Yamaha" , "Ninja" , "Duke" , "Choper"];
+console.log(bikes)
+let ul = document.querySelector("ul");
+for (let i = 0; i < bikes.length; i++) {
+    // console.log(bikes [i])
+    ul.innerHTML += `<li>${bikes[i]}</li>`
 }
