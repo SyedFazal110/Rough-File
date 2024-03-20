@@ -94,10 +94,49 @@
 
 
 
-let bikes = ["Honda" , "KTM" , "Ducati" , "Yamaha" , "Ninja" , "Duke" , "Choper"];
-console.log(bikes)
-let ul = document.querySelector("ul");
-for (let i = 0; i < bikes.length; i++) {
-    // console.log(bikes [i])
-    ul.innerHTML += `<li>${bikes[i]}</li>`
-}
+// let bikes = ["Honda" , "KTM" , "Ducati" , "Yamaha" , "Ninja" , "Duke" , "Choper"];
+// console.log(bikes)
+// let ul = document.querySelector("ul");
+// for (let i = 0; i < bikes.length; i++) {
+//     // console.log(bikes [i])
+//     ul.innerHTML += `<li>${bikes[i]}</li>`
+// }
+
+
+
+
+// function renderol()
+// {
+//     var input = document.querySelector('ol');
+//     let bikes = ["Honda" , "KTM" , "Ducati" , "Yamaha" , "Ninja" , "Duke" , "Choper"];
+//     // for(i = 0; i < bikes.length; i++){
+//     // ol.innerHTML += `<li>${bikes[i]}</li>`
+//     // }
+//     let i = 0;
+//     while(i < bikes.length){
+//     input.innerHTML += `<li>${bikes[i]}</li>`
+//     i++;
+//     }
+
+// }
+
+
+
+
+
+// while loop
+// let i = 15;
+// while(i < 14){
+//     console.log("while Loop===>", i);
+//     i++
+// }
+
+
+
+
+//Do while loop
+// let j = 15;
+// do{
+//     console.log("do while Loop===>", i);
+//     i++
+// }while(j < 14)
