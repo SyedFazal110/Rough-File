@@ -140,3 +140,21 @@
 //     console.log("do while Loop===>", i);
 //     i++
 // }while(j < 14)
+
+
+
+
+// let arr = ['fazal','ali','bilal','hassan'];
+// let ol = document.querySelector('ol')
+// for (let i = 0; i < arr.length; i++) {
+//     ol.innerHTML += `<li>${arr[i]}</li>`
+//     console.log(arr[i])
+// }
+
+
+
+
+const todo = document.querySelector("#todo");
+function addValue(){
+    
+}
