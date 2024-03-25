@@ -154,7 +154,19 @@
 
 
 
-const todo = document.querySelector("#todo");
-function addValue(){
+// const todo = document.querySelector("#todo");
+// function addValue(){
     
-}
+// }
+
+
+
+
+// let name1 = document.querySelector("#name1");
+// let name2 = document.querySelector("#name2");
+// let head1 = document.querySelector("#head1");
+// let head2 = document.querySelector("#head2");
+// function getValue(){
+//     head1.innerHTML = `${name1.value}`;
+//     head2.innerHTML = `${name2.value}`;
+// }
