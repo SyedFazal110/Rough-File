@@ -170,3 +170,35 @@
 //     head1.innerHTML = `${name1.value}`;
 //     head2.innerHTML = `${name2.value}`;
 // }
+
+
+
+
+
+// let form1 = +document.querySelector("#form1").value;
+// let form2 = +document.querySelector("#form2").value;
+// let h1 = document.querySelector("h1");
+// function getValue(){
+//     h1.innerHTML = form1 + form2;
+// }
+
+
+
+
+// let fruit = ["Apple" , "Banana" , "Orange" , "Mango" , "Strawberry" , "Pineapple" , "Watermelon" , "Guava" , "Appricot" , "Blackberry", "Blueberry" , "Canary Melon" , "Dates" , "Papaya" , "Lychee" , "Peach" , "Pear" , "Dragonfruit" , "Grapes" , "Plum"];
+// let ol = document.querySelector("ol");
+// for (let i = 0; i < fruit.length; i++) {
+//     ol.innerHTML += `<li>${fruit[i]}<Button onclick="deleteTodo(${i})">Delete</Button></li>`;
+// }
+
+// function showTodo(){
+//     ol.innerHTML = "";
+//     for (let i = 0; i < fruit.length; i++) {
+//         ol.innerHTML += `<li>${fruit[i]}<Button onclick="deleteTodo(${i})">Delete</Button></li>`;
+//     }
+// }
+
+// function deleteTodo(index){
+//     fruit.splice(index , 1);
+//     showTodo();
+// }
