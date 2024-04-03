@@ -202,3 +202,55 @@
 //     fruit.splice(index , 1);
 //     showTodo();
 // }
+
+
+
+// toLowerCase()
+// toUpperCase()
+// length 
+// charAt 
+// indexOf 
+// slice 
+// replace
+// replaceALL
+// split 
+
+
+
+
+
+// let text = "I love cats. Cats are very easy to love. Cats are very popular."
+// text = text.replaceAll("Cats","Dogs");
+// text = text.replaceAll("cats","dogs");
+// console.log(text);
+
+
+
+
+// let text = "How are you doing today?";
+// const myArray = text.split(" ");
+// console.log(myArray)
+
+
+
+
+// let para =document.querySelector('#para');
+// let user = "Fazal";
+// para.innerHTML = `${user}`;
+// console.log(user);
+
+// function upperCase(){
+//     if(para.innerHTML===`${user}`){
+//         para.innerHTML=`${user.toUpperCase()}`
+//     }else{
+//         para.innerHTML=`${user}`
+//     }
+// }
+
+// function lowerCase(){
+//     if(para.innerHTML===`${user}`){
+//         para.innerHTML=`${user.toLowerCase()}`
+//     }else{
+//         para.innerHTML=`${user}`
+//     }
+// }
