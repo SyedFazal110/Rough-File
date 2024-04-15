@@ -268,3 +268,17 @@
 // else{
 //     console.log("not")
 // }
+
+
+
+
+// let num1 = +prompt("Enter Your Number");
+// let num2 = +prompt("Enter Your Second Number");
+// let sum = num1 + num2;
+// console.log(sum);
+// if(sum >100){
+//     console.log("limit nhe hai");
+// }
+// else{
+//     console.log("sahi hai")
+// }
