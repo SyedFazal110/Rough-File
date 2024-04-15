@@ -282,3 +282,11 @@
 // else{
 //     console.log("sahi hai")
 // }
+
+
+
+
+function greetUser(name , age , gender){
+    console.log(`Hello ${name} , my age is ${age} , gender is ${gender} `)
+}
+// greetUser("ali" , 20 , "male")
