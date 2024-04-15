@@ -254,3 +254,17 @@
 //         para.innerHTML=`${user}`
 //     }
 // }
+
+
+
+
+// const age = 26;
+// if(age >=18 && age <=25){
+//     console.log("eliogible")
+// }
+// else if(age >=12 && age <=17){
+//     console.log("eliogible2")
+// }
+// else{
+//     console.log("not")
+// }
