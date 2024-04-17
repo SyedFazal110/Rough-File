@@ -286,7 +286,21 @@
 
 
 
-function greetUser(name , age , gender){
-    console.log(`Hello ${name} , my age is ${age} , gender is ${gender} `)
+// function greetUser(name , age , gender){
+//     console.log(`Hello ${name} , my age is ${age} , gender is ${gender} `)
+// }
+// // greetUser("ali" , 20 , "male")
+
+
+
+
+// let input = +prompt("Enter Your Number");
+for (let i = 1; i <= 100; i++) 
+{
+    // console.log(`${input} * ${i} = ${input * i}`);
+    console.log("Bahar wala loop");
+    for (let j = 1; j <= 10; j++) {
+        console.log(`${i} * ${j} = ${i * j}`)
+        
+    }
 }
-// greetUser("ali" , 20 , "male")
