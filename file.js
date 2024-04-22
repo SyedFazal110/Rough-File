@@ -295,12 +295,41 @@
 
 
 // let input = +prompt("Enter Your Number");
-for (let i = 1; i <= 100; i++) 
-{
+// for (let i = 1; i <= 100; i++) 
+// {
     // console.log(`${input} * ${i} = ${input * i}`);
-    console.log("Bahar wala loop");
-    for (let j = 1; j <= 10; j++) {
-        console.log(`${i} * ${j} = ${i * j}`)
+//     console.log("Bahar wala loop");
+//     for (let j = 1; j <= 10; j++) {
+//         console.log(`${i} * ${j} = ${i * j}`)
         
-    }
+//     }
+// }
+
+// const number = 20.5657687;
+// const number1 = 39;
+// console.log(parseInt(number));
+// console.log(typeof parseFloat(number));
+
+
+
+
+// let num = 10.9;
+// console.log(Math.round(num));
+// console.log(Math.ceil(Math.random() * 100));
+// console.log(Math.floor(num));
+
+
+
+
+// console.log(Math.random() * 100)
+
+
+
+
+
+function toss(ClickedBtn){
+    console.log("toss" , ClickedBtn)
 }
+
+
+
