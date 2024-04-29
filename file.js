@@ -327,9 +327,41 @@
 
 
 
-function toss(ClickedBtn){
-    console.log("toss" , ClickedBtn)
-}
+// let obj = {
+//     username : 'Fazal',
+//     email : 'syedfazal808@gmail.com',
+//     age : 22,
+//     available : true,
+//     greetUser : function(){
+//         return  `hello ${this.firstName}`
+//     }
+// }
 
+// obj.firstName = "Ali";
+// obj.lastName = "Jafferi";
+// delete obj.username;
+
+// console.log(obj.greetUser());
+// console.log(obj);
+
+
+
+
+
+let input1 = document.querySelector("#input1");
+let input2 = document.querySelector("#input2");
+let input3 = document.querySelector("#input3");
+let input4 = document.querySelector("#input4");
+
+
+function getValue(){
+    const obj = {
+        name : input1.value,
+        email : input2.value,
+        password : input3.value,
+        age : input4.value,
+    }
+    console.log(obj);
+}
 
 
