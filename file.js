@@ -358,7 +358,7 @@ function getValue(){
     const obj = {
         name : input1.value,
         email : input2.value,
-        password : input3.value,
+        city : input3.value,
         age : input4.value,
     }
     console.log(obj);
