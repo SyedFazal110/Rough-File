@@ -348,20 +348,93 @@
 
 
 
-let input1 = document.querySelector("#input1");
-let input2 = document.querySelector("#input2");
-let input3 = document.querySelector("#input3");
-let input4 = document.querySelector("#input4");
+// let input1 = document.querySelector("#input1");
+// let input2 = document.querySelector("#input2");
+// let input3 = document.querySelector("#input3");
+// let input4 = document.querySelector("#input4");
 
 
-function getValue(){
-    const obj = {
-        name : input1.value,
-        email : input2.value,
-        city : input3.value,
-        age : input4.value,
+// function getValue(){
+//     const obj = {
+//         name : input1.value,
+//         email : input2.value,
+//         city : input3.value,
+//         age : input4.value,
+//     }
+//     console.log(obj);
+// }
+
+
+const obj = document.querySelector("#obj")
+
+
+const users = [
+    {
+        name: "Alice",
+        age: 25,
+        hobbies: ["Reading", "Painting"]
+    },
+    {
+        name: "Bob",
+        age: 30,
+        hobbies: ["Playing guitar", "Cooking"]
+    },
+    {
+        name: "Charlie",
+        age: 22,
+        hobbies: ["Hiking", "Photography"]
+    },
+    {
+        name: "David",
+        age: 28,
+        hobbies: ["Running", "Watching movies"]
+    },
+    {
+        name: "Ella",
+        age: 35,
+        hobbies: ["Traveling", "Knitting"]
+    },
+    {
+        name: "Frank",
+        age: 20,
+        hobbies: ["Gaming", "Drawing"]
+    },
+    {
+        name: "Grace",
+        age: 27,
+        hobbies: ["Singing", "Dancing"]
+    },
+    {
+        name: "Hannah",
+        age: 32,
+        hobbies: ["Cooking", "Yoga"]
+    },
+    {
+        name: "Ian",
+        age: 24,
+        hobbies: ["Playing football", "Reading"]
+    },
+    {
+        name: "Jessica",
+        age: 29,
+        hobbies: ["Writing", "Cycling" , 'swimming']
     }
-    console.log(obj);
+];
+
+for(i = 0 ; i < users.length ; i++){
+    let hobbies = ""
+    // console.log(users[i])
+    for(j = 0; j < users[i].hobbies.length ; j++){
+        // console.log(users[i].hobbies[j])
+        hobbies +=`<li>${users[i].hobbies[j]}</li>`
+    }
+    
+    obj.innerHTML += `
+    <h1>Name :  ${users[i].name} </h1> 
+    <h1>Age : ${users[i].age} </h1> 
+    <h1>Hobbies : </h1>
+    <ul>${hobbies}</ul>
+    <\hr>`
 }
 
 
