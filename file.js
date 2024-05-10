@@ -365,76 +365,155 @@
 // }
 
 
-const obj = document.querySelector("#obj")
 
 
-const users = [
-    {
-        name: "Alice",
-        age: 25,
-        hobbies: ["Reading", "Painting"]
-    },
-    {
-        name: "Bob",
-        age: 30,
-        hobbies: ["Playing guitar", "Cooking"]
-    },
-    {
-        name: "Charlie",
-        age: 22,
-        hobbies: ["Hiking", "Photography"]
-    },
-    {
-        name: "David",
-        age: 28,
-        hobbies: ["Running", "Watching movies"]
-    },
-    {
-        name: "Ella",
-        age: 35,
-        hobbies: ["Traveling", "Knitting"]
-    },
-    {
-        name: "Frank",
-        age: 20,
-        hobbies: ["Gaming", "Drawing"]
-    },
-    {
-        name: "Grace",
-        age: 27,
-        hobbies: ["Singing", "Dancing"]
-    },
-    {
-        name: "Hannah",
-        age: 32,
-        hobbies: ["Cooking", "Yoga"]
-    },
-    {
-        name: "Ian",
-        age: 24,
-        hobbies: ["Playing football", "Reading"]
-    },
-    {
-        name: "Jessica",
-        age: 29,
-        hobbies: ["Writing", "Cycling" , 'swimming']
-    }
-];
+// const obj = document.querySelector("#obj")
 
-for(i = 0 ; i < users.length ; i++){
-    let hobbies = ""
-    // console.log(users[i])
-    for(j = 0; j < users[i].hobbies.length ; j++){
-        // console.log(users[i].hobbies[j])
-        hobbies +=`<li>${users[i].hobbies[j]}</li>`
-    }
+
+// const users = [
+//     {
+//         name: "Alice",
+//         age: 25,
+//         hobbies: ["Reading", "Painting"]
+//     },
+//     {
+//         name: "Bob",
+//         age: 30,
+//         hobbies: ["Playing guitar", "Cooking"]
+//     },
+//     {
+//         name: "Charlie",
+//         age: 22,
+//         hobbies: ["Hiking", "Photography"]
+//     },
+//     {
+//         name: "David",
+//         age: 28,
+//         hobbies: ["Running", "Watching movies"]
+//     },
+//     {
+//         name: "Ella",
+//         age: 35,
+//         hobbies: ["Traveling", "Knitting"]
+//     },
+//     {
+//         name: "Frank",
+//         age: 20,
+//         hobbies: ["Gaming", "Drawing"]
+//     },
+//     {
+//         name: "Grace",
+//         age: 27,
+//         hobbies: ["Singing", "Dancing"]
+//     },
+//     {
+//         name: "Hannah",
+//         age: 32,
+//         hobbies: ["Cooking", "Yoga"]
+//     },
+//     {
+//         name: "Ian",
+//         age: 24,
+//         hobbies: ["Playing football", "Reading"]
+//     },
+//     {
+//         name: "Jessica",
+//         age: 29,
+//         hobbies: ["Writing", "Cycling" , 'swimming']
+//     }
+// ];
+
+// for(i = 0 ; i < users.length ; i++){
+//     let hobbies = ""
+//     // console.log(users[i])
+//     for(j = 0; j < users[i].hobbies.length ; j++){
+//         // console.log(users[i].hobbies[j])
+//         hobbies +=`<li>${users[i].hobbies[j]}</li>`
+//     }
     
-    obj.innerHTML += `
-    <h1>Name :  ${users[i].name} </h1> 
-    <h1>Age : ${users[i].age} </h1> 
-    <h1>Hobbies : </h1>
-    <ul>${hobbies}</ul>
-    <\hr>`
+//     obj.innerHTML += `
+//     <h1>Name :  ${users[i].name} </h1> 
+//     <h1>Age : ${users[i].age} </h1> 
+//     <h1>Hobbies : </h1>
+//     <ul>${hobbies}</ul>
+//     <\hr>`
+// }
+
+// const div = document.querySelector('div')
+// function click(){
+
+//     const ul = document.createElement('UL');
+//     const li = document.createElement('li');
+//     const liText = document.createTextNode('Fazal');
+//     li.appendChild(liText);
+//     ul.appendChild(li)
+//     div.appendChild(ul);
+// }
+
+
+
+
+// const users = [
+//     {
+//         name: "Alice",
+//         age: 25,
+//     },
+//     {
+//         name: "Bob",
+//         age: 30,
+//     },
+//     {
+//         name: "Charlie",
+//         age: 22,
+//     },
+//     {
+//         name: "David",
+//         age: 28,
+//     },
+//     {
+//         name: "Ella",
+//         age: 35,
+//     },
+//     {
+//         name: "Frank",
+//         age: 20,
+//     },
+//     {
+//         name: "Grace",
+//         age: 27,
+//     },
+//     {
+//         name: "Hannah",
+//         age: 32,
+//     }
+// ];
+// console.log(users);
+// for (let i = 0; i < users.length; i++) {
+//     div.innerHTML = `
+//     <h1></h1>
+//         <p></p>
+//         <button onclick="render()">Add to cart</button>
+
+// `
+    
+// }
+
+// function render(){
+
+// }
+
+
+
+
+let grade = "A";
+switch(grade){
+    case"A":
+        console.log ("Pass")
+        break
+    case "B":
+        console.log("guzara hai")
+        break
+    default:
+        console.log("fail")
+        break    
 }
-
-
