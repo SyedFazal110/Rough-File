@@ -505,15 +505,41 @@
 
 
 
-let grade = "A";
-switch(grade){
-    case"A":
-        console.log ("Pass")
-        break
-    case "B":
-        console.log("guzara hai")
-        break
-    default:
-        console.log("fail")
-        break    
-}
+// let grade = "A";
+// switch(grade){
+//     case"A":
+//         console.log ("Pass")
+//         break
+//     case "B":
+//         console.log("guzara hai")
+//         break
+//     default:
+//         console.log("fail")
+//         break    
+// }
+
+
+
+// const div = document.querySelector("div");
+//  const arr = ['Fazal' , 'Ali' , 'Owais' , 'Subhan' ,'Hasan'];
+//  arr.forEach((item)=>{
+//     console.log(item)
+//  })
+
+
+// arr.forEach(function (item , index){
+//         console.log(item , index)
+//         div.innerHTML += `<h1>${item}</h1>`
+//      })
+
+
+
+
+
+// arr.map(function (item ){
+//         console.log(item )
+//         div.innerHTML += `<h1>${item}</h1>`
+//      })
+
+
+
