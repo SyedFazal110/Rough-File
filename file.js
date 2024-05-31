@@ -543,3 +543,67 @@
 
 
 
+// let marks = 70;
+// let markS = new Promise((resolve , reject)=>{
+//     if(marks > 80){
+//         console.log("A1")
+//         resolve()
+//     }else{
+//         console.log("B")
+//         reject()
+//     }
+// })
+
+// markS
+// .then((res)=>{
+//     console.log("A1")
+// })
+// .catch((arr)=>{
+//     console.log("B")
+// })
+
+
+
+
+
+
+
+// function money(paisa){
+//     return new Promise((resolve , reject) =>{
+//         setTimeout(() => {
+//             if(paisa > 10){
+//                 // console.log("Chips")
+//                 resolve("Chips")
+//             }else{
+//                 // console.log("Candies")
+//                 reject("Candies")
+//             }
+            
+//         }, 1000);
+//     })
+// }
+// money(15)
+// .then((res)=>{
+//     console.log(res)
+// })
+// .catch((err)=>{
+//     console.log(err)
+// })
+
+
+
+// const div = document.querySelector("div")
+// axios('https://jsonplaceholder.typicode.com/users')
+// .then((res)=>{
+//     console.log(res.data)
+//     res.data.map((item)=>{
+//         div.innerHTML += `
+//         <h1>ID : ${item.id}</h1>
+//         <h2>NAME : ${item.name}</h2>
+//         <h2>USERNAME : ${item.username}</h2>
+//         `
+//     })
+// })
+// .catch((err)=>{
+//     console.log(err)
+// })
