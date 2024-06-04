@@ -607,3 +607,110 @@
 // .catch((err)=>{
 //     console.log(err)
 // })
+
+
+
+
+
+// const obj = {
+//     username: "Fazal",
+//     email: "syedfazal808@gmail.com",
+//     age: 22 
+// }
+
+// const {username , email , age} = obj ;
+// console.log(age , username , email)
+
+
+
+
+
+// const fruit = ["apple", "banana", "orange", "mango"];
+
+// const [ , , , one] = fruit;
+// console.log(one);
+
+
+
+
+
+//spread operator
+
+// const fruit = ["apple", "banana", "orange", "mango"];
+// const fruit2 = ["watermelon", ...fruit];
+// console.log(fruit2);
+// const newArr = fruit2.concat(fruit);
+// console.log(newArr);
+
+
+
+
+
+
+//rest operator
+
+// function hello(...username) {
+//   console.log(username);
+// }
+// hello("abdullah", "usman", "ammar", "zain");
+
+
+
+
+
+
+//ternary operator
+
+
+// const num = 60;
+// if (num > 50) {
+//   console.log("passed");
+// } else {
+//   console.log("failed");
+// }
+
+// num > 90 ? console.log('passed') : console.log('failed');
+
+// if (num > 70) {
+//   console.log("behtreen");
+// } else if (num > 50) {
+//   console.log("passed");
+// } else {
+//   console.log("failed");
+// }
+
+// num > 70
+//   ? console.log("behtreen")
+//   : num > 50
+//   ? console.log("passed")
+//   : console.log("failed");
+
+// const num = 81;
+// num > 80 ? console.log('A1') : num > 70 ? console.log('A') : num > 60 ? console.log('B') : console.log('Failed');
+
+
+
+
+
+//default parameter
+
+// function greetUser(username = "Fazal") {
+//   console.log(`hello ${username}`);
+// }
+
+// greetUser();
+
+
+
+
+
+// Enhanced object literals
+
+// let names = "Fazal Ali";
+// let age = 21;
+
+// let user = {
+//   names,
+//   age,
+// };
+// console.log(user);
